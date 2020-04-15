@@ -24,10 +24,14 @@ body {
     max-width: 80%;
 }
 
+.list-container:nth-child(1) {
+    padding-top: 100px;
+}
+
 .list-container h1 {
     color: #084887;
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 300;
     padding-bottom: 30px;
 }
 
@@ -45,6 +49,7 @@ body {
     font-size: 20px;
     color: #555;
     letter-spacing: 1px;
+    font-weight: 300;
 }
 
 .list-item:nth-child(1) {
@@ -53,7 +58,6 @@ body {
 
 .list-item a {
     text-decoration: none;
-    color: #084887;
-    margin-right: 10px;
-    font-weight: 600;
+    color: #F58A07;
+    margin-right: 5px;
 }
