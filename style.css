@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,35 +10,36 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #084887;
-    font-family: 'Montserrat';
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .container {
     width: 55%;
-    min-height: 100vh; 
+    min-height: 100vh;
     margin: 0 auto;
     background-color: #ffffff;
+    padding: 50px 0 50px 0;
 }
 
 .list-container {
-    padding-top: 50px;
     margin: 0 auto;
+    margin-top: 20px;
     max-width: 80%;
 }
 
-.list-container:nth-child(1) {
+/* .list-container:nth-child(1) {
     padding-top: 100px;
-}
+} */
 
 .list-container h1 {
     color: #084887;
-    font-size: 50px;
-    font-weight: 300;
-    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 15px;
 }
 
 .list-container h1 span {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .item-list {
@@ -45,11 +48,11 @@ body {
 }
 
 .list-item {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 20px;
     color: #555;
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .list-item:nth-child(1) {
@@ -58,6 +61,7 @@ body {
 
 .list-item a {
     text-decoration: none;
-    color: #F58A07;
+    font-weight: 400;
+    color: #e84118;
     margin-right: 5px;
 }
